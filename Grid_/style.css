@@ -1,0 +1,51 @@
+/* makes the containt responsive */
+.body-container { 
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.grid-container {
+  display: grid;  /* creates the boxes */
+  grid-template-columns: auto auto auto auto;
+  gap: 20px;
+  background-color: rgb(235, 181, 181);
+  padding: 20px;
+  
+  max-width: 80%;
+  transform: scale(0.75); 
+  border-style: solid;
+  border-radius: 10px 10px 10px 10px;
+  
+  
+
+}
+.grid-container > div {
+    background-color: white;
+    text-align: center;
+    padding: 20px 0;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif ;
+    border-style: solid;
+    border-radius: 10px 10px 10px 10px;
+    box-shadow: 10px 5px 5px rgb(227, 147, 147);
+   
+}
+h1{
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+h2{
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+p{
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+ 
+
+}
+/* add width to images to make container not shrink when pg is min */
+img{
+  width: 100%;
+}
